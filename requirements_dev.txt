@@ -1,0 +1,4 @@
+cx-Freeze==6.3
+importlib-metadata==2.0.0
+zipp==3.4.0
+pywin32==300
