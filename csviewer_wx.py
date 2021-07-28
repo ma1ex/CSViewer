@@ -302,8 +302,8 @@ class CsvApp(Log, AppConfig):
         self.csv_grid.SetDefaultCellTextColour('#000030')
 
         # self.csv_grid.LabelBackgroundColour = '#FFFD9F'
-        self.csv_grid.LabelBackgroundColour = '#FAFAA4' # FAFAA4 - светлее | FBFBB0 - темнее  # EEF78A | E6DB74
-        self.csv_grid.SetGridLineColour('#AAAAAA')
+        self.csv_grid.LabelBackgroundColour = '#F4ECC5'  # '#F9F5D7'  # '#EBDBB2'
+        self.csv_grid.SetGridLineColour('#D4D4D4')
         self.csv_grid.LabelFont = wx.Font(wx.FontInfo(10).Bold())
         self.csv_grid.LabelTextColour = '#682714'
         # self.csv_grid.LabelTextColour = '#004960'
