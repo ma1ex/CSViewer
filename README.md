@@ -2,7 +2,8 @@
 > simple and lightweight *.csv file viewer written in Python
 
 
-![](screenshot.png)
+![](screenshot_1.png)
+![](screenshot_2.png)
 
 ## Installation
 
@@ -32,7 +33,7 @@ python main.py
 > - Быстрая загрузка больших файлов
 > - Закрашивание нечетных строк "зеброй"
 > - Отображение общего количества строк и столбцов
-> - Автоопределение кодировки* (utf-8, cp1251, cp866, koi8-r)
+> - Автоопределение* и ручной выбор кодировки (utf-8, cp1251, cp866, koi8-r)
 > - Выбор разделителя значений - запятая, точка с запятой, табуляция
 > - Автоподбор ширины столбцов при двойном клике на заголовке
 > - Копирование в буфер обмена значения выбранной ячейки
@@ -79,4 +80,4 @@ build_csviewer_win_x64\CSViewer.exe
 
 ## License
 
-Distributed under the MIT license.
+Distributed under the MIT license. See ``LICENSE.md`` for more information.
