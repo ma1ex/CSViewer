@@ -142,3 +142,4 @@ cython_debug/
 
 # User
 build_csviewer_win_x64/
+Build/

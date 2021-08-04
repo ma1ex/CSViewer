@@ -33,7 +33,7 @@ options = {
         'zip_exclude_packages': [],
         # 'zip_include_packages': ["*"],
         'zip_include_packages': zip_include_packages,
-        'build_exe': 'build_csviewer_win_x64',
+        'build_exe': f'Build/CSViewer_v{AppConfig.APP_VERSION}_win_x64',
     }
 }
 
