@@ -29,14 +29,23 @@ python main.py
 
 ## Features
 
+> _Eng_:
+> - Fast loading of large files;
+> - Zebra shading of odd lines;
+> - Display the total number of rows and columns;
+> - Autodetection* and manual selection of encoding (utf-8, cp1251, cp866, koi8-r);
+> - Separator selection - comma, semicolon, tabulation;
+> - Auto column width selection with double click on header;
+> - Copying the value of the selected cell to the clipboard;
+> 
 > _Rus_: 
-> - Быстрая загрузка больших файлов
-> - Закрашивание нечетных строк "зеброй"
-> - Отображение общего количества строк и столбцов
-> - Автоопределение* и ручной выбор кодировки (utf-8, cp1251, cp866, koi8-r)
-> - Выбор разделителя значений - запятая, точка с запятой, табуляция
-> - Автоподбор ширины столбцов при двойном клике на заголовке
-> - Копирование в буфер обмена значения выбранной ячейки
+> - Быстрая загрузка больших файлов;
+> - Закрашивание нечетных строк "зеброй";
+> - Отображение общего количества строк и столбцов;
+> - Автоопределение* и ручной выбор кодировки (utf-8, cp1251, cp866, koi8-r);
+> - Выбор разделителя значений - запятая, точка с запятой, табуляция;
+> - Автоподбор ширины столбцов при двойном клике на заголовке;
+> - Копирование в буфер обмена значения выбранной ячейки;
 
 ## Dependencies
 > wxPython
@@ -50,19 +59,19 @@ Windows:
 
 ```cmd
 cd /d d\CSViewer:
-python -m venv venv && venv\scripts\activate
+venv\scripts\activate
 pip install -r requirements_dev.txt
 python setup_wx.py build
 ```
 
-After compilation in the project directory will appear `build_csviewer_win_x64`
+After compilation in the project directory will appear `Build\CSViewer_vX.X.X_win_x64`
 
 ## Run compiled application
 
 Windows:
 
 ```cmd
-build_csviewer_win_x64\CSViewer.exe
+Build\CSViewer_vX.X.X_win_x64\CSViewer.exe
 ```
 
 ## Release History
